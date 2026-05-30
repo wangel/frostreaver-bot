@@ -2,9 +2,6 @@
 
 All notable changes to **Frostreaver.Bot** are documented here.
 
-The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
-and this project aims to follow [Semantic Versioning](https://semver.org/).
-
 When the running bot's version changes, it posts a short note (these highlights +
 a link back to this file) in each server's configured bonus channel.
 
