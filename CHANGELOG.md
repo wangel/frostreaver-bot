@@ -5,6 +5,20 @@ All notable changes to **Frostreaver.Bot** are documented here.
 When the running bot's version changes, it posts a short note (these highlights +
 a link back to this file) in each server's configured bonus channel.
 
+## [0.5.0]
+
+### Added
+- **`/pricecheck <item>`** (alias **`/pc`**) — look up an item's median tunnel
+  price on Frostreaver, sourced from [tlp-auctions.com](https://www.tlp-auctions.com).
+  Item names autocomplete as you type, so you pick a real item — no typos, no
+  guessing partial names. High-value items show in krono (e.g. `4kr`), and
+  krono-priced sales are folded into plat so everything's comparable.
+
+> **Note:** new slash commands can take up to ~1 hour to propagate across
+> Discord after an update. If `/pricecheck` isn't showing yet, give it a while.
+
+[0.5.0]: https://github.com/wangel/frostreaver-bot/releases/tag/v0.5.0
+
 ## [0.4.0]
 
 ### Changed
